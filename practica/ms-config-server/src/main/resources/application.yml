@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: ms-config-server
+  cloud:
+    config:
+      server:
+        git:
+          #Git SSH configuration using properties (PARA GIT PRIVADO)
+          uri: https://github.com/GaboMV/practicaA.git
+          default-label: "main"
+server:
+  port: 8888
+
